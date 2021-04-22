@@ -571,37 +571,59 @@ a {
     }
 }
 
-.about-slider {
-    position: relative;
-    z-index: 3;
-    text-align: center;
-    margin-top: 100px;
-    display: flex;
+// .about-slider {
+//     position: relative;
+//     z-index: 3;
+//     text-align: center;
+//     margin-top: 100px;
+//     display: flex;
+//     justify-content: center;
+    
         
-}
+// }
+
+
 
 .slider-items {
     display: flex;
-
-}
-
-.arrow-left, .arrow-right {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
+    position: relative;
+    min-width: 0;
     margin: 0 auto;
+    margin-top: 100px;
+    max-width: 310px;
+    
+    .slider_item {
+        margin-left: 10px;
+        
+        
+        
+        
+        
+    }
+    
+}
+
+.slider-items .slick-arrow.slick-prev {
+    background: url(/img/left.png);
+}
+
+
+
+
+.slick-list {
+    overflow: hidden;
     
     
 }
 
-.arrow-left {
-    margin-right: 20px;
-    
-}
 
-.arrow-right {
-    margin-left: 20px;
+.slick-center img {
+    width: 70px;
+    height: 70px;
+    
+    
+    
+    
 }
 
 
