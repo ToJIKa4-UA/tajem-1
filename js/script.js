@@ -9,11 +9,11 @@ $(document).ready(function() {
    $('.slider-items').slick({
    arrows:true,
    centerMode: true,
-   // centerPadding: '60px',
+   centerPadding: '0px',
    slidesToShow: 3,
    speed: 1000,
-   autoplay: true,
-   autoplaySpeed: 3000,
+   adaptiveHeight: true,
+   variableWidth: true,
    });
 });
 
