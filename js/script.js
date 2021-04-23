@@ -9,11 +9,20 @@ $(document).ready(function() {
    $('.slider-items').slick({
    arrows:true,
    centerMode: true,
-   centerPadding: '0px',
    slidesToShow: 3,
    speed: 1000,
    adaptiveHeight: true,
    variableWidth: true,
+   focusOnSelect: true,
+   responsive: [
+    {
+      breakpoint: 320,
+      settings: {
+      centerMode: false,
+      slidesToShow: 1
+      }
+    }
+    ]
    });
 });
 
